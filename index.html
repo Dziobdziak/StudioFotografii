@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnakePhoto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/600c21d011.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="svg/favIcoSnake.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">    
+</head>
+<body>
+
+<!-- Panel nawigacyjny  -->
+
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#home"><i class="fa-solid fa-staff-snake"></i></a>
+              <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#home">Strona główna</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects">Nasze projekty</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#prices">Cennik</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aboutUs">O nas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#whereAreWe">Gdzie jesteśmy?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Kontakt</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+<!-- Header ze zdjęciem w tle -->
+
+          <header id="home">
+
+                <div class="imgBg">
+                  <div class="shadowDiv"></div>
+                  <div class="contentBoxHeaderDiv py-5 px-5">
+                    <div class="headerLogo">
+                      <h1>Snake<span>Photo</span></h1>
+                      <h1><i class="fa-solid fa-staff-snake"></i></h1>  
+                      <button type="button" class="btn btn-light heartbeat" ><a href="#projects">Sprawdź nas!</a></button>                    
+                    </div>
+                  </div>
+                </div>
+          </header>
+
+          <main>
+<!-- Sekcja projekty -->
+<!-- Projekty na duże ekrany -->
+            <section id="projects" class="projects py-5">
+                <h1>NASZE <span>ZDJĘCIA</span></h1>
+                            <div class="container bigDevProjects">
+                                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                  <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                      <img src="img/img1.jpg" class="d-block w-100" alt="Zdjęcie z portfolio">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="img/img2.jpg" class="d-block w-100" alt="Zdjęcie z portfolio">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="img/img3.jpg" class="d-block w-100" alt="Zdjęcie z portfolio">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="img/img4.jpg" class="d-block w-100" alt="Zdjęcie z portfolio">
+                                    </div>
+                                    <div class="carousel-item">
+                                      <img src="img/img5.jpg" class="d-block w-100" alt="Zdjęcie z portfolio">
+                                    </div>
+                                  </div>
+                                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                  </button>
+                                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                  </button>
+                                </div>                              
+                            </div>
+
+                            <!-- Projekty na mobile -->
+
+                            <div class="container mobileProjects">
+                              <div class="card" style="width: 18rem;">
+                                <img src="img/img1.jpg" class="card-img-top" alt="Zdjęcie z portfolio">
+                              </div>
+                              <div class="card" style="width: 18rem;">
+                                <img src="img/img2.jpg" class="card-img-top" alt="Zdjęcie z portfolio">
+                                
+                              </div>
+                              <div class="card" style="width: 18rem;">
+                                <img src="img/img3.jpg" class="card-img-top" alt="Zdjęcie z portfolio">
+                                
+                              </div>
+                              <div class="card" style="width: 18rem;">
+                                <img src="img/img4.jpg" class="card-img-top" alt="Zdjęcie z portfolio">
+                               
+                              </div>
+                              <div class="card" style="width: 18rem;">
+                                <img src="img/img5.jpg" class="card-img-top" alt="Zdjęcie z portfolio">
+                                
+                              </div>
+                            </div>
+            </section>
+
+<!-- Sekcja z cenami -->
+
+            <section id="prices" class="prices">
+                <div class="imgBg py-5">
+                  <div class="imgShadow"></div>
+                    <h1>CENNIK <span>USŁUG</span></h1>
+
+                      <div class="container">
+                            <div class="card" data-aos="zoom-in-right" data-aos-delay="100" style="width: 18rem;">
+                              <img src="img/pricesImg1.jpg" class="card-img-top" alt="Zdjęcie z ceną">
+                              <div class="card-body">
+                                <h5>Sesje krajobrazowe</h5>
+                                <p class="card-text">Sesje krajobrazowe w naszym wykonaniu cechują się wysoką jakością. Ich ceny zaczynają się już od <b>1000zł</b></p>
+                              </div>
+                            </div>
+                            <div class="card" data-aos="zoom-in-up" data-aos-delay="100" style="width: 18rem;">
+                              <img src="img/pricesImg2.jpg" class="card-img-top" alt="Zdjęcie z ceną">
+                              <div class="card-body">
+                                <h5>Sesje architektoniczne</h5>
+                                <p class="card-text">Sesje architektoniczne w naszym wykonaniu zbierają sławę w całej Europie. Ich ceny zaczynają się już od <b>1500zł</b></p>
+                              </div>
+                            </div>
+                            <div class="card" data-aos="zoom-in-left" data-aos-delay="100" style="width: 18rem;">
+                              <img src="img/pricesImg3.jpg" class="card-img-top" alt="Zdjęcie z ceną">
+                              <div class="card-body">
+                                <h5>Sesje ślubne</h5>
+                                <p class="card-text">Sesje ślubne to nasze ulubione! Każda jest wyjątkowa na swój sposób! Ich ceny zaczynają się już od <b>2500zł</b></p>
+                              </div>
+                            </div>
+                      </div>
+                </div>
+            </section>
+
+<!-- Sekcja z historią studia -->
+            <section class="aboutUs py-5" id="aboutUs">
+                <h1>NASZA <span>HISTORIA</span></h1>
+                  <div class="container">
+                    <div class="aboutUsInfo">
+
+                        <div class="icoBox"><i class="fa-solid fa-staff-snake"></i></div>
+                        <div class="infoBox"><p>Nasze studio zostało założone w 1998r. w sercu Rzeszowa. Od ponad 20 lat pragniemy dostarczyć naszym klientom najwyższej jakości usługi z dziedziny fotografii krajobrazowej, architektonicznej oraz sesji ślubnych. Wśród dużej konkurencji wyrózniamy się terminowością powierzonych zadań oraz indywidualnym podejściem do klienta. Nasze największe plany zdjęciowe były realizowane na ulicach takich miast jak Nowy Jork, Mediolan, Praga, Paryż, Las Vegas czy Sydney! Nasi klienci to potężne międzynarodowe korporacje ale również młodzi, kreatywni ludzie chcący z naszą pomocą uwiecznić piękno swojego ślubu. Ilość zleceń, którą w ciągu ostatnich 10 lat mieliśmy przyjemność realizować zdecydowanie imponuje, bowiem jest to ponad 7000 sesji realizowanych na całym świecie!</p></div>
+                        <div class="icoBox"><i class="fa-solid fa-staff-snake"></i></div>
+                        
+                      </div>
+                    </div>
+                </div>
+              <div class="longLine"></div>
+            </section>
+
+            <section class="whereAreWe pb-5" id="whereAreWe">
+                  <h1>Gdzie <span>jesteśmy?</span></h1>
+              <div class="mapContentBox">
+                <p>Nasza główna siedziba znajduje się w samym centrum <b>Rzeszowa</b>. Pozostałe oddziały są w Hamburgu, Barcelonie oraz Paryżu.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.2082761281767!2d22.015287915884638!3d50.026193025724204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cfa585456ef7f%3A0xfb56034f0cf308df!2saleja%20Tadeusza%20Rejtana%2033%2C%2035-310%20Rzesz%C3%B3w!5e0!3m2!1spl!2spl!4v1664275228296!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </section>
+
+            <section class="contact" id="contact">
+              <div class="imgBg py-5">
+                <div class="shadowDiv"></div>
+                    <div class="contentContactBox">
+                      <h1>Kontakt</h1>
+                      <div class="container">
+                            <div class="contactItem" data-aos="zoom-in" data-aos-delay="300">
+                              <h3>Snake<span>Photo</span></h3>
+                              <p>Kirchenstraße 88</p>
+                              <p>(+49) 30 12345678</p>
+                              <p>33777 Hamburg</p>
+                            </div>
+                            <div class="contactItem" data-aos="zoom-in" data-aos-delay="100">
+                              <h3>Snake<span>Photo</span></h3>
+                              <p>Rejtana 78</p>
+                              <p>(+48) 123 456 789</p>
+                              <p>35-120 Rzeszów</p>
+                            </div>
+                            <div class="contactItem" data-aos="zoom-in" data-aos-delay="200">
+                              <h3>Snake<span>Photo</span></h3>
+                              <p>90 DUCOM</p>
+                              <p>(+33) 987 654 321</p>
+                              <p>75015 PARIS</p>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </section>
+
+            <section class="funFactBox py-5">
+              <h1><span>Ciekawostka</span></h1>
+              <p class="funFact"></p>
+            </section>
+
+<!-- Przycisk przewijający stronę do góry -->
+
+            <div class="upArrow displayNone"><a href="#home"><i class="fa-regular fa-hand-point-up"></i></a></div>
+          </main>
+
+<!-- Stopka -->
+          <footer>
+            <p>2022 &copy; Design & Code by <a href="https://github.com/Dziobdziak" target="_blank">Mateusz Dziopak</a></p>
+          </footer>
+          
+
+
+    
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
