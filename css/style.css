@@ -659,6 +659,7 @@ header .contentBoxHeaderDiv .headerLogo .btn-light a {
           align-items: center;
   gap: 40px;
   color: white;
+  text-align: center;
 }
 .funFactBox h1 {
   color: rgb(38, 207, 38);
