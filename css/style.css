@@ -818,6 +818,12 @@ footer p a {
   header .imgBg{
     background-attachment: unset;
   }
+  .prices .imgBg{
+    background-attachment: unset;
+  }
+  .contact .imgBg{
+    background-attachment: unset;
+  }
   main .bigDevProjects {
     display: none;
   }
