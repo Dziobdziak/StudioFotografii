@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () =>{
 
 //Losowa ciekawostka
 
-const facts = ['W SnakePhoto jest zatrudnionych ponad 300 specjalistów!','Wartość sprzętu, który używamy do pracy przekracza 1 000 000 zł!','Najdłuższa sesja ślubna, którą realizowaliśmy trwała 16 tygodni!','Współpracę z nami nawiązywały takie firmy jak: Adidas, Reebok, Supreme czy Lacoste!','Sesje krajobrazowe, które realizowaliśmy na zlecenie m.in. National Geographic zyskały uznanie wśród krytyków na całym świecie!','Ponad połowę naszej kadry pracowniczej zyskaliśmy dzięki programowi stażowemu, który realizowaliśmy w latach 2005-2015','Nasze zdjęcia były wykorzystywane jako okładki takich magazynów jak Forbes czy Vogue!','Nasze social media śledzi ponad 30 000 osób','SnakePhoto zostało założone przez pasjonata fotografii krajobrazowej w dniu jego dwudziestych urodzin!']
+const facts = ['W SnakePhoto jest zatrudnionych ponad 300 specjalistów!','Wartość sprzętu, który używamy do pracy przekracza 1 000 000 zł!','Najdłuższa sesja ślubna, którą realizowaliśmy trwała 16 tygodni!','Współpracę z nami nawiązywały takie firmy jak: Adidas, Reebok, Supreme czy Lacoste!','Sesje krajobrazowe, które realizowaliśmy na zlecenie m.in. National Geographic zyskały uznanie wśród krytyków na całym świecie!','Ponad połowę naszej kadry pracowniczej zyskaliśmy dzięki programowi stażowemu, który realizowaliśmy w latach 2005-2015','Nasze zdjęcia były wykorzystywane jako okładki takich magazynów jak Forbes czy Vogue!','Nasze social media śledzi ponad 30 000 osób!','SnakePhoto zostało założone przez pasjonata fotografii krajobrazowej w dniu jego dwudziestych urodzin!']
 
 const randomFact = facts[Math.floor(Math.random()*facts.length)];
 
