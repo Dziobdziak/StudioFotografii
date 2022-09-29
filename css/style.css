@@ -814,6 +814,9 @@ footer p a {
   }
 }
 @media (max-width: 768px) {
+  header .imgBg{
+    background-attachment: unset;
+  }
   main .bigDevProjects {
     display: none;
   }
