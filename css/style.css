@@ -367,7 +367,7 @@ header .contentBoxHeaderDiv .headerLogo .btn-light a {
 }
 
 .prices {
-  height: 50vh;
+  height: min-content;
 }
 .prices .imgBg {
   width: 100%;
