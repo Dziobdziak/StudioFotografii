@@ -415,6 +415,7 @@ header .contentBoxHeaderDiv .headerLogo .btn-light a {
   text-decoration: line-through;
 }
 .prices .imgBg .container {
+  margin-top: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
